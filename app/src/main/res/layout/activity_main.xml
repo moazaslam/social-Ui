@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/homegrad"
+
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_baseline_menu_24"
+            android:paddingLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:paddingTop="22dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="2dp"
+            android:paddingRight="10dp"/>
+
+
+
+</LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+<LinearLayout
+    android:layout_width="5000dp"
+    android:layout_height="200dp"
+    android:paddingTop="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+        android:top="10dp"
+        android:right="50dp"
+        android:bottom="1dp">
+
+        
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/lovecover"
+            app:shapeAppearance="@style/circular"
+            app:strokeColor="#677ADD"
+            app:strokeWidth="8dp"
+            android:scaleType="fitXY"
+            tools:ignore="MissingConstraints" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Love "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="70dp"
+            android:textColor="@color/white"
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+        android:top="10dp"
+        android:right="50dp"
+        android:bottom="1dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeColor="#677ADD"
+            app:strokeWidth="8dp"
+
+            android:src="@drawable/sadcover"
+            app:shapeAppearance="@style/circular"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sad "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="70dp"
+            android:textColor="@color/white"
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+
+
+
+        android:top="10dp"
+        android:right="50dp"
+        android:bottom="1dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeColor="#677ADD"
+            app:strokeWidth="8dp"
+            android:src="@drawable/fun"
+            app:shapeAppearance="@style/circular"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Funny "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="70dp"
+            android:textColor="@color/white"
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+
+
+
+        android:top="10dp"
+        android:right="50dp"
+        android:bottom="1dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeColor="#677ADD"
+            app:strokeWidth="8dp"
+            android:src="@drawable/sports"
+            app:shapeAppearance="@style/circular"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sports "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="70dp"
+            android:textColor="@color/white"
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+
+
+
+        android:top="10dp"
+        android:right="50dp"
+        android:bottom="1dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:strokeColor="#677ADD"
+            app:strokeWidth="8dp"
+            android:src="@drawable/music"
+            app:shapeAppearance="@style/circular"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MUSIC"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="70dp"
+            android:textColor="@color/white"
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>
+
+
+    </HorizontalScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#722FEA"/>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/songcover"
+                app:strokeColor="#677ADD"
+                app:strokeWidth="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:weightSum="3"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/love1"
+                android:layout_weight="1"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comment"
+                android:layout_weight="1"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/share"
+                android:layout_weight="1"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
+
+
